@@ -12,7 +12,7 @@
 >Ако масивът има <span style="color:red">**четен**</span> брой елементи - делим го на две равни части. Ако масивът има <span style="color:red">**нечетен**</span> брой елементи - делим го на 2 части, като средният елемент слагаме в лявата част.
 
 **Пример за сортиране на масив от цели числа чрез Merge Sort:** 
-![](Images\mergeSortExample.jpg)
+![mergeSortIllustration](Images/mergeSortExample.jpg)
 
 >#### Сложности:
 - Сложност по памет: <span style="color:red">**Θ(n)**</span>
