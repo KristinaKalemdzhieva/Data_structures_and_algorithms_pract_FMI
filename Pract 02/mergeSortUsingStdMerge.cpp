@@ -11,20 +11,20 @@ class Solution {
             mergeSort(arr, lhs, mid);
            
             //Copy the sorted left subarray into vector firstArr:
-            vector<int> firstArr;
-            for(int i = lhs; i <= mid; i++)
+            vector<int> firstArr(mid - lhs + 1);
+            for(int arrInd = lhs, firstInd = 0; arrInd <= mid; arrInd++, firstInd++)
             {
-                firstArr.push_back(arr[i]);
+                firstArr[firstInd] = arr[arrInd];
             }
 
             //Sort the right subarray:
             mergeSort(arr, mid + 1, rhs);
 
             //Copy the sorted right subarray into vector secondArr:
-            vector<int> secondArr;
-            for(int i = mid + 1; i <= rhs; i++)
+            vector<int> secondArr(rhs - mid);
+            for(int arrInd = mid + 1, secondInd = 0; arrInd <= rhs; arrInd++, secondInd++)
             {
-                secondArr.push_back(arr[i]);
+                secondArr[secondInd] = arr[arrInd];
             }
 
             //Merge the two sorted subarrays via std::merge into arr:

@@ -4,42 +4,36 @@ class Solution {
     //arr2 = {arr[mid + 1], ..., arr[rhs]}
     void merge(vector<int>& arr, int lhs, int mid, int rhs)
     {
+        //Create temporary vector:
+        vector<int> merged(rhs - lhs + 1);
+
         int firstInd = lhs; //current index of arr1
         int secondInd = mid + 1; //current index of arr2
-
-        //Create temporary vector:
-        vector<int> temp;
-
-        //Merge arr1 and arr2 into the temporary vector in ascending order:
+        int mergedInd = 0; //current index of the temporary vector - merged 
+        
+        //Merge arr1 and arr2 into the temporary vector (named merged) in ascending order:
         while(firstInd <= mid && secondInd <= rhs)
         {
-            if(arr[firstInd] < arr[secondInd])
-            {
-                temp.push_back(arr[firstInd++]);
-            }
-            else
-            {
-                temp.push_back(arr[secondInd++]);
-            }
+            merged[mergedInd++] = arr[firstInd] < arr[secondInd] ? arr[firstInd++] : arr[secondInd++];
         }
 
         //Add the remaining elements of arr1, if any, to the temporary vector:
         while(firstInd <= mid)
         {
-            temp.push_back(arr[firstInd++]);
+            merged[mergedInd++] = arr[firstInd++];
         }
 
         //Add the remaining elements of arr2, if any, to the temporary vector:
         while(secondInd <= rhs)
         {
-            temp.push_back(arr[secondInd++]);
+            merged[mergedInd++] = arr[secondInd++];
         }
 
         //Copy the temporary vector into arr in the range [lhs, rhs]:
         int index = lhs;
-        for(auto iter = temp.begin(); iter != temp.end(); iter++, index++)
+        for(auto iter = merged.begin(); iter != merged.end(); iter++)
         {
-            arr[index] = *(iter);
+            arr[index++] = *(iter);
         }
     }
 
