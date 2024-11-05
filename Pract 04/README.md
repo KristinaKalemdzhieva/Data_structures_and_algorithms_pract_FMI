@@ -36,6 +36,15 @@
 
 ![timeComplexity](Images/timeComplexity.jpg)
 
+#### ❕**ЗАБЕЛЕЖКА**❕Функциите от таблицата са както следва:
+> - **insert(position, value)** - добавяне на елемент на произволна позиция със стойност *value*
+> - **push_front(value)** - добавяне на нов елемент в началото със стойност *value*
+> - **push_back(value)** - добавяне на нов елемент в края със стойност *value*
+> - **remove(position)** - премахване на елемент на произволна позиция
+> - **pop_front()** - премахване на елемнта в началото
+> - **pop_back()** - премахване на елемента в края
+> - **getElement(position)** - достъп до елемент на конкретна позиция
+
 ## Задачи:
 - [Линк към задачите](https://leetcode.com/problem-list/awvsv662/)
 - [Линк към допълнителни задачи](https://docs.google.com/document/d/1WMc5IfCP_wrf2DygAh5GS3AvpzP-2A1LNtcOg__Gsgg/edit?tab=t.0)
