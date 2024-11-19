@@ -35,6 +35,9 @@
 ![queueExample](Images/queueExample.jpg)
 
 
+## Задачи:
+- [Линк към задачите](https://leetcode.com/problem-list/awth2fv7/)
+- [Линк към допълнителни задачи](https://leetcode.com/problem-list/ak94gj43/)
 
 
 
