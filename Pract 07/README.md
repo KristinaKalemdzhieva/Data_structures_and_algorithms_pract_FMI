@@ -35,8 +35,8 @@ BST е кореново двоично дърво, за всеки връх на
 > - Ако обхождането е **дясно-**<span style="color: magenta;">**корен**</span>**-ляво**, то обхождането е в **низходящ ред**.
 
 ## Сложности:
-// to do...
+![timeComplexity](Images/timeComplexity.jpg)
 
 ## Задачи:
 - [Линк към задачите](https://leetcode.com/problem-list/ak9s8zte/)
-- [Линк към допълнителни задачи]()
+- [Линк към допълнителни задачи](https://leetcode.com/problem-list/asoz7ua1/)

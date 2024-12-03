@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="gvqSs1mNDARW9zsitbi8" name="Page-1">
+        <mxGraphModel dx="722" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Операция" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeColor=#000000;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="120" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Average case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeColor=#000000;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="120" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Worst case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeColor=#000000;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="120" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="добавяне на елемент" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="200" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Θ(log(N))&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="200" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Θ(N)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="200" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="премахване на елемент" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="260" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Θ(log(N))" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="260" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Θ(N)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="260" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="достъп до произволен елемент" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="320" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Θ(log(N))" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="320" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Θ(N)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="320" width="170" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
