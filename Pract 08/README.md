@@ -154,7 +154,7 @@ public:
 - [Линк към задачата в LeetCode](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
 ### Сложности:
-//To do...
+![timeComplexity](Images/timeComplexity.jpg)
 
 ## Задачи:
 - [Линк към задачите](https://leetcode.com/problem-list/agz3w971/)
